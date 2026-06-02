@@ -1,21 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="4" total="11" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-02T14:22:18 CEST" name="Default suite" finished-at="2026-06-02T14:22:18 CEST" duration-ms="80">
+  <suite started-at="2026-06-02T16:00:01 CEST" name="Loan Department" finished-at="2026-06-02T16:00:02 CEST" duration-ms="311">
     <groups>
     </groups>
-    <test started-at="2026-06-02T14:22:18 CEST" name="Default test" finished-at="2026-06-02T14:22:18 CEST" duration-ms="80">
-      <class name="test.Day1">
-        <test-method signature="FirstTest()[pri:0, instance:test.Day1@7d8995e]" started-at="2026-06-02T14:22:18 CEST" name="FirstTest" finished-at="2026-06-02T14:22:18 CEST" duration-ms="13" status="PASS">
+    <test started-at="2026-06-02T16:00:01 CEST" name="Personal Loan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="82">
+      <class name="test.day2">
+        <test-method signature="ploan()[pri:0, instance:test.day2@72967906]" started-at="2026-06-02T16:00:02 CEST" name="ploan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method signature="FirstTest()[pri:0, instance:test.day1@9597028]" started-at="2026-06-02T16:00:01 CEST" name="FirstTest" finished-at="2026-06-02T16:00:02 CEST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstTest -->
-        <test-method signature="SecondTest()[pri:0, instance:test.Day1@7d8995e]" started-at="2026-06-02T14:22:18 CEST" name="SecondTest" finished-at="2026-06-02T14:22:18 CEST" duration-ms="2" status="PASS">
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2026-06-02T16:00:02 CEST" name="Car Loan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="9">
+      <class name="test.day3">
+        <test-method signature="LoginAPICarloan()[pri:0, instance:test.day3@1f2586d6]" started-at="2026-06-02T16:00:02 CEST" name="LoginAPICarloan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SecondTest -->
-      </class> <!-- test.Day1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- LoginAPICarloan -->
+        <test-method signature="WebloginCarloan()[pri:0, instance:test.day3@1f2586d6]" started-at="2026-06-02T16:00:02 CEST" name="WebloginCarloan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarloan -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2026-06-02T16:00:02 CEST" name="Home Loan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="25">
+      <class name="test.day4">
+        <test-method signature="LoginAPIHomeloan()[pri:0, instance:test.day4@139982de]" started-at="2026-06-02T16:00:02 CEST" name="LoginAPIHomeloan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeloan -->
+        <test-method signature="MobileloginHomeloan()[pri:0, instance:test.day4@139982de]" started-at="2026-06-02T16:00:02 CEST" name="MobileloginHomeloan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeloan -->
+        <test-method signature="WebloginHomeloan()[pri:0, instance:test.day4@139982de]" started-at="2026-06-02T16:00:02 CEST" name="WebloginHomeloan" finished-at="2026-06-02T16:00:02 CEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeloan -->
+      </class> <!-- test.day4 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
 </testng-results>
